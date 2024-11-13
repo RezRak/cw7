@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "919843880991",
+    "project_id": "classactivity14-c28ab",
+    "storage_bucket": "classactivity14-c28ab.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919843880991:android:1a470f741d2e2fc3bcd52a",
+        "android_client_info": {
+          "package_name": "com.ca14.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUlzNAWogPIW5l8oDCsGsFTPwpGPG39uQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

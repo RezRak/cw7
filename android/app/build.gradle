@@ -1,0 +1,40 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services' // Applied Google Services plugin
+    id 'kotlin-android'
+    id 'dev.flutter.flutter-gradle-plugin'
+}
+
+android {
+    namespace 'com.ca14.app'
+    compileSdkVersion 34 // Use the latest SDK version you have installed
+    ndkVersion flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    defaultConfig {
+        applicationId 'com.ca14.app'
+        minSdkVersion flutter.minSdkVersion // Set minSdkVersion to at least 19 for FCM
+        targetSdkVersion 34
+        versionCode flutter.versionCode
+        versionName flutter.versionName
+    }
+
+    buildTypes {
+        release {
+            // TODO: Add your own signing config for the release build.
+            signingConfig signingConfigs.debug
+        }
+    }
+}
+
+flutter {
+    source '../..'
+}
